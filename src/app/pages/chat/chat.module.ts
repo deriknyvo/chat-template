@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { ChatComponent } from './chat.component';
 import { RouterModule, Routes } from '@angular/router';
+import { SideComponent } from './side/side.component';
+import { WindowComponent } from './window/window.component';
 
 const routes: Routes = [
   {
@@ -13,7 +15,9 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    ChatComponent
+    ChatComponent,
+    SideComponent,
+    WindowComponent
   ],
   imports: [
     CommonModule,
