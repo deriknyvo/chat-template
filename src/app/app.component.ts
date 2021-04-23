@@ -9,6 +9,6 @@ import { Router } from '@angular/router';
 export class AppComponent {
   
   constructor(public router: Router) {
-    this.router.navigate(['chat']);
+    // this.router.navigate(['chat']);
   }
 }

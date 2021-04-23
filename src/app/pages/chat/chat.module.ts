@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatIconModule } from '@angular/material/icon';
 
 import { ChatComponent } from './chat.component';
 import { RouterModule, Routes } from '@angular/router';
@@ -21,7 +23,9 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    MatTabsModule,
+    MatIconModule
   ]
 })
 export class ChatModule { }
