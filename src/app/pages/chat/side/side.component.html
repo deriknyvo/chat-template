@@ -1,10 +1,11 @@
-<mat-tab-group>
+<mat-tab-group mat-stretch-tabs>
     <mat-tab>
         <ng-template mat-tab-label>
             <mat-icon class="tab-icon">chat_bubble</mat-icon>
             Conversas
         </ng-template>
-        Content 1
+
+        <app-list-conversations></app-list-conversations>
     </mat-tab>
 
     <mat-tab>

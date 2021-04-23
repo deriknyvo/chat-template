@@ -4,6 +4,16 @@
   box-shadow: -1px 1px 5px rgb(165 165 165 / 30%);
 }
 
+:host::ng-deep {
+  mat-tab-group {
+    height: 100%;
+  }
+
+  .mat-tab-body-wrapper {
+    height: 100%;
+  }
+}
+
 .tab-icon {
   margin-right: 7px;
   margin-top: 5px;
